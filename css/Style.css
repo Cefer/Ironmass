@@ -293,3 +293,39 @@ footer p a{
 footer p a:hover{
 	color: #f54f15;	
 }
+
+#sec-breadcrumb{
+	background-color: #f3f3f3;
+
+}
+
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+
+#sec-content{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#sec-content h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+.letra-naranja{
+	color: #f54f15;
+	
+}
+
+
+#sec-content .font-weight-bold{
+	color:#333;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+
