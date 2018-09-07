@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,800');
+
 body{
-	font-family: Segoe UI;
+	font-family:'Raleway', sans-serif;
 	font-size: 16px;
 	color: #333;
 
@@ -89,7 +91,7 @@ p{
 #sec-classes{
 	text-align: center;
 	padding: 100px 0;
-	height: 700px;
+	/*min-height: 700px;*/
 	background-color: #F3F3F3;
 }
 
@@ -172,7 +174,7 @@ p{
 }
 #sec-mood{
 	background-image:url(../img/bg-fitness.jpg);
-	background-repeat: center;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #FFFFFF;
@@ -329,3 +331,79 @@ footer p a:hover{
 	min-height: 300px;
 }
 
+.ocultar{
+	display: none;
+
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-area.sticky{
+    background-color: #884bdf;
+	
+}
+
+.back-to-top { 
+    text-align: center; 
+    background: rgba(0,0,0,0.40); 
+    color: #fff; 
+    display: none; 
+    width: 40px; height: 40px; line-height: 40px; 
+    font-family: "FontAwesome";
+    font-size: 35px; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+    z-index: 9999; 
+}
+.back-to-top:hover { 
+    opacity: 1; 
+}
+.back-to-top:before{
+    content: "\f062";
+}
+
+/*Diseño para movil*/
+@media (max-width: 480px){
+	.btn-naranja{
+		padding: 5px 10px;
+	}
+	
+	#sec-carousel .caption-center h2{
+		font-size: 20px;
+	}
+	
+	.btn-negro{
+		background-color: rgba(0,0,0,0.80);
+		color: #fff;
+	}
+	
+	#sec-mood h1 {
+		font-size: 50px;
+	}
+}
+
+/*Diseño tableta y móvil (xs y sm)*/
+@media (max-width:768px){
+	#sec-classes .info-texto{
+		opacity: 1;
+	}
+	#sec-classes article,
+	#sec-images article{
+		margin-top: 10px;
+	}
+}
+
+/*Diseño tableta (sm)*/
+@media (min-width:480px) and (max-width:768px){
+	
+}
